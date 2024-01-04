@@ -1,7 +1,8 @@
 repo_name: gordonpn/aws-embedded-metrics-java
 report_id: 7975cbe5358cc3a2423705c6788ac4d3
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T13:07:13+00:00'
+timestamp: '2024-01-04T14:53:59+00:00'
 requested_by: gordonpn
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java
   detection_source: Repo Metadata
 - name: Jackson
   description: A suite of data-processing tools for Java
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Java Tools
   image_url: https://ucarecdn.com/d8ec839d-4d66-4c08-8297-9e2be82f6b75/
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/src/main/java/software/amazon/cloudwatchlogs/emf/util/Jackson.java
   detection_source: src/main/java/software/amazon/cloudwatchlogs/emf/util/Jackson.java
   last_updated_by: Mark Kuhn
   last_updated_on: 2022-08-23 23:47:50.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java
   detection_source: Repo Metadata
 - name: Gradle
   description: A powerful build system for the JVM
@@ -56,7 +61,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
-  detection_source: gradlew.bat
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
   last_updated_by: Xinyu Bao
   last_updated_on: 2022-08-25 03:21:20.000000000 Z
 - name: SLF4J
@@ -67,6 +73,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
   detection_source: build.gradle
   last_updated_by: yaozhaoy
   last_updated_on: 2020-07-10 17:04:20.000000000 Z
@@ -79,6 +86,7 @@ tools:
   category: Application Hosting
   sub_category: Serverless / Task Processing
   image_url: https://img.stackshare.io/service/1909/aws-lambda.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/examples/lambda/build.gradle
   detection_source: examples/lambda/build.gradle
   last_updated_by: yaozhaoy
   last_updated_on: 2020-12-09 18:33:34.000000000 Z
@@ -91,4 +99,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java
   detection_source: Repo Metadata
