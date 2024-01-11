@@ -2,11 +2,11 @@ repo_name: gordonpn/aws-embedded-metrics-java
 report_id: 7975cbe5358cc3a2423705c6788ac4d3
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T09:26:15+00:00'
+timestamp: '2024-01-11T12:14:02+00:00'
 requested_by: gordonpn
 provider: github
 branch: master
-detected_tools_count: 8
+detected_tools_count: 28
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -101,3 +101,313 @@ tools:
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
   detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java
   detection_source: Repo Metadata
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  version: 2.14.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  version: 2.14.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  version: 2.14.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: com.github.javafaker:javafaker
+  description: This library is a port of Ruby's stympy/faker gem
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  version: 3.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.apache.logging.log4j:log4j-api
+  description: The Apache Log4j API
+  version: 2.13.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/canarytests/agent/build.gradle
+  detection_source: canarytests/agent/build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2022-09-16 23:28:01.000000000 Z
+  vulnerabilities:
+  - name: Incomplete fix for Apache Log4j vulnerability
+    cve_id: CVE-2021-45046
+    cve_url: https://github.com/advisories/GHSA-7rjr-3q55-vv33
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.16.0
+  - name: Remote code injection in Log4j
+    cve_id: CVE-2021-44228
+    cve_url: https://github.com/advisories/GHSA-jfh8-c2jp-5v3q
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.15.0
+  - name: Improper Input Validation and Uncontrolled Recursion in Apache Log4j2
+    cve_id: CVE-2021-45105
+    cve_url: https://github.com/advisories/GHSA-p6xc-xr62-6r2g
+    detected_date: Dec 19
+    severity: high
+    first_patched: 2.17.0
+  - name: Improper Input Validation and Injection in Apache Log4j2
+    cve_id: CVE-2021-44832
+    cve_url: https://github.com/advisories/GHSA-8489-44mv-ggj8
+    detected_date: Jan 5
+    severity: moderate
+    first_patched: 2.17.1
+- name: org.apache.logging.log4j:log4j-core
+  description: The Apache Log4j Implementation
+  version: 2.13.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/canarytests/agent/build.gradle
+  detection_source: canarytests/agent/build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2022-09-16 23:28:01.000000000 Z
+  vulnerabilities:
+  - name: Remote code injection in Log4j
+    cve_id: CVE-2021-44228
+    cve_url: https://github.com/advisories/GHSA-jfh8-c2jp-5v3q
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.15.0
+  - name: Incomplete fix for Apache Log4j vulnerability
+    cve_id: CVE-2021-45046
+    cve_url: https://github.com/advisories/GHSA-7rjr-3q55-vv33
+    detected_date: Dec 14
+    severity: critical
+    first_patched: 2.16.0
+  - name: Apache Log4j2 vulnerable to Improper Input Validation and Uncontrolled Recursion
+    cve_id: CVE-2021-45105
+    cve_url: https://github.com/advisories/GHSA-p6xc-xr62-6r2g
+    detected_date: Dec 19
+    severity: high
+    first_patched: 2.17.0
+  - name: Improper Input Validation and Injection in Apache Log4j2
+    cve_id: CVE-2021-44832
+    cve_url: https://github.com/advisories/GHSA-8489-44mv-ggj8
+    detected_date: Jan 5
+    severity: moderate
+    first_patched: 2.17.1
+- name: org.apache.logging.log4j:log4j-slf4j-impl
+  description: Binding between SLF4J API and Log4J2 Core
+  version: 2.13.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/canarytests/agent/build.gradle
+  detection_source: canarytests/agent/build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2022-09-16 23:28:01.000000000 Z
+- name: org.javatuples:javatuples
+  description: Java library for tuples in Java
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  version: 5.9.2
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.9.2
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-params
+  description: Module "junit-jupiter-params" of JUnit 5
+  version: 5.9.2
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.junit.vintage:junit-vintage-engine
+  description: Module "junit-vintage-engine" of JUnit 5
+  version: 5.9.2
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.openjdk.jmh:jmh-core
+  description: The jmh is a Java harness for building
+  version: '1.36'
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.openjdk.jmh:jmh-generator-annprocess
+  description: JMH benchmark generator, based on annotation processors
+  version: '1.36'
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.powermock:powermock-api-mockito2
+  description: PowerMock API for Mockito 2.+.
+  version: 2.0.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.powermock:powermock-module-junit4
+  description: PowerMock support module for JUnit 4.x
+  version: 2.0.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
+- name: software.amazon.awssdk:cloudwatch
+  description: The AWS Java SDK for Amazon CloudWatch module holds the client classes
+    that are used for communicating with Amazon CloudWatch Service
+  version: 2.20.13
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/gordonpn/aws-embedded-metrics-java/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Mark Kuhn
+  last_updated_on: 2023-03-02 17:25:00.000000000 Z
