@@ -3,13 +3,13 @@
 ## Tech Stack
 gordonpn/aws-embedded-metrics-java is built on the following main stack:
 
-- [Gradle](https://www.gradle.org/) – Java Build Tools
 - [Java](https://www.java.com) – Languages
-- [AWS Lambda](http://aws.amazon.com/lambda) – Serverless / Task Processing
 - [Jackson](https://github.com/FasterXML/jackson) – Java Tools
-- [SLF4J](http://slf4j.org/) – Log Management
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [Gradle](https://www.gradle.org/) – Java Build Tools
+- [SLF4J](http://slf4j.org/) – Log Management
+- [AWS Lambda](http://aws.amazon.com/lambda) – Serverless / Task Processing
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -19,13 +19,13 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 gordonpn/aws-embedded-metrics-java is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/975/gradlephant-social-black-bg.png' alt='Gradle'/> [Gradle](https://www.gradle.org/) – Java Build Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1909/aws-lambda.png' alt='AWS Lambda'/> [AWS Lambda](http://aws.amazon.com/lambda) – Serverless / Task Processing
 - <img width='25' height='25' src='https://ucarecdn.com/d8ec839d-4d66-4c08-8297-9e2be82f6b75/' alt='Jackson'/> [Jackson](https://github.com/FasterXML/jackson) – Java Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='SLF4J'/> [SLF4J](http://slf4j.org/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/975/gradlephant-social-black-bg.png' alt='Gradle'/> [Gradle](https://www.gradle.org/) – Java Build Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png' alt='SLF4J'/> [SLF4J](http://slf4j.org/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/1909/aws-lambda.png' alt='AWS Lambda'/> [AWS Lambda](http://aws.amazon.com/lambda) – Serverless / Task Processing
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 
 Full tech stack [here](/techstack.md)
 
@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [gordonpn/aws-embedded-metrics-java](https://github.com/gordonpn/aws-embedded-metrics-java)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|28<br/>Tools used|01/11/24 <br/>Report generated|
+|28<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -142,7 +142,7 @@ Full tech stack [here](/techstack.md)
 |[com.github.javafaker:javafaker](http://github.com/DiUS/java-faker)|v1.0.2|03/02/23|Mark Kuhn |Apache-2.0|N/A|
 |[org.apache.commons:commons-lang3](http://commons.apache.org/proper/commons-lang/)|v3.12.0|03/02/23|Mark Kuhn |Apache-2.0|N/A|
 |[org.apache.logging.log4j:log4j-api](https://logging.apache.org/log4j/2.x/)|v2.13.3|09/16/22|Mark Kuhn |Apache-2.0|[CVE-2021-45046](https://github.com/advisories/GHSA-7rjr-3q55-vv33) (Critical)<br/>[CVE-2021-44228](https://github.com/advisories/GHSA-jfh8-c2jp-5v3q) (Critical)<br/>[CVE-2021-45105](https://github.com/advisories/GHSA-p6xc-xr62-6r2g) (High)<br/>[CVE-2021-44832](https://github.com/advisories/GHSA-8489-44mv-ggj8) (Moderate)|
-|[org.apache.logging.log4j:log4j-core](https://logging.apache.org/log4j/2.x/)|v2.13.3|09/16/22|Mark Kuhn |Apache-2.0|[CVE-2021-44228](https://github.com/advisories/GHSA-jfh8-c2jp-5v3q) (Critical)<br/>[CVE-2021-45046](https://github.com/advisories/GHSA-7rjr-3q55-vv33) (Critical)<br/>[CVE-2021-45105](https://github.com/advisories/GHSA-p6xc-xr62-6r2g) (High)<br/>[CVE-2021-44832](https://github.com/advisories/GHSA-8489-44mv-ggj8) (Moderate)|
+|[org.apache.logging.log4j:log4j-core](https://logging.apache.org/log4j/2.x/)|v2.13.3|09/16/22|Mark Kuhn |Apache-2.0|[CVE-2021-45046](https://github.com/advisories/GHSA-7rjr-3q55-vv33) (Critical)<br/>[CVE-2021-44228](https://github.com/advisories/GHSA-jfh8-c2jp-5v3q) (Critical)<br/>[CVE-2021-45105](https://github.com/advisories/GHSA-p6xc-xr62-6r2g) (High)<br/>[CVE-2021-44832](https://github.com/advisories/GHSA-8489-44mv-ggj8) (Moderate)|
 |[org.apache.logging.log4j:log4j-slf4j-impl]()|v2.13.3|09/16/22|Mark Kuhn |Apache-2.0|N/A|
 |[org.javatuples:javatuples](http://www.javatuples.org)|v1.2|03/02/23|Mark Kuhn |Apache-2.0|N/A|
 |[org.junit.jupiter:junit-jupiter-api](https://junit.org/junit5/)|v5.9.2|03/02/23|Mark Kuhn |EPL-2.0|N/A|
